@@ -55,6 +55,12 @@
 					</execution>
 				</executions>
 			</plugin>
-		</plugins>
+		</plugins><distributionManagement>
+    <repository>
+        <id>mynexus</id>
+        <name>mynexus</name>
+        <url>http://13.48.128.222:8081/repository/mynexus/</url>
+    </repository>
+</distributionManagement>
 	</build>
 </project>
